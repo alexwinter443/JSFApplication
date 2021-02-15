@@ -1,3 +1,13 @@
+<!-- 
+/*
+ * Alex vergara
+ * Professor Jackson
+ * Date: 2/14/2021
+ * JSF Application
+ * THIS IS MY OWN WORK
+ * 
+ */
+ -->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:ui="http://java.sun.com/jsf/facelets"
@@ -6,6 +16,7 @@
 
 <head>
 <title><ui:insert name= "pageTitle">Page Title</ui:insert></title>
+<!-- CSS STYLE -->
 <style>
 	.order-table {
 		border: 1px black solid;
@@ -18,13 +29,13 @@
 </style>
 </head>
 
-
+<!-- BODY -->
 <body> 
 	<h1>Response Page</h1>
 	<p>Hello #{user.firstName} , How are you?</p>
 	<p>Last Name: #{user.lastName}</p>
 	
-	
+	<!-- DATA GRID -->
 	<h:dataTable value = "#{orders.orders}" var="o" styleClass="order-table" headerClass="order-table-header"
 		rowClasses = "order-table-odd , order-table-even1">
 		<h:column>
@@ -49,6 +60,6 @@
 		
 	
 	</h:dataTable>
-	
+	<!-- END DATA GRID -->
 </body> 
 </html>

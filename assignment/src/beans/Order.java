@@ -1,12 +1,22 @@
+/*
+ * Alex vergara
+ * Professor Jackson
+ * Date: 2/14/2021
+ * JSF Application
+ * THIS IS MY OWN WORK
+ * 
+ */
 package beans;
 
 public class Order {
 
+	//variables
 	String orderNo = "";
 	String productName = "";	
 	float price = 0;
 	int quantity = 0;
 	
+	//constructor
 	public Order(String orderNo, String productName, float price, int quantity) {
 		this.orderNo = orderNo;
 		this.productName = productName;
@@ -14,6 +24,7 @@ public class Order {
 		this.quantity = quantity;
 	}
 	
+	//getters and setters
 	public String getOrderNo() {
 		return orderNo;
 	}

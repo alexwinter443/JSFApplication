@@ -1,3 +1,11 @@
+/*
+ * Alex vergara
+ * Professor Jackson
+ * Date: 2/14/2021
+ * JSF Application
+ * THIS IS MY OWN WORK
+ * 
+ */
 package beans;
 
 import java.util.ArrayList;
@@ -11,7 +19,8 @@ import com.sun.tools.javac.util.List;
 public class Orders {
 
 	ArrayList <Order> orders = new ArrayList<Order>();
-	
+
+	// instantiate orders
 	public Orders() {
 		orders.add(new Order("00000000", "This is product 1", (float)1121.00,1));
 		orders.add(new Order("00000001", "This is product 2", (float)312.00,14));
@@ -25,6 +34,7 @@ public class Orders {
 		orders.add(new Order("00000009", "This is product 10", (float)10002.00,1121));
 	}
 	
+	//getters and setters
 	public ArrayList<Order> getOrders(){
 		return orders;
 	}

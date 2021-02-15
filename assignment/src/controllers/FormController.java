@@ -1,3 +1,11 @@
+/*
+ * Alex vergara
+ * Professor Jackson
+ * Date: 2/14/2021
+ * JSF Application
+ * THIS IS MY OWN WORK
+ * 
+ */
 package controllers;
 
 import javax.faces.bean.ManagedBean;
